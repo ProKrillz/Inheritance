@@ -1,4 +1,4 @@
 ﻿namespace Inheritance;
-public class Student : Person {
+public record Student : Person {
     public string ClassNumber { get; init; }
 }
